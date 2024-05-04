@@ -1,0 +1,26 @@
+a {
+    font-size: 20px;
+    /*text-decoration: underline; subrayado por defecto del enlace*/
+    /*text-decoration: none;/*le quita el subrayado que tiene por defecto el enlace
+    tambien se puede ujtilizar para parrafos de texto*/
+    text-decoration: line-through;/* coloca una linea sobre la palabra del enlace*/
+}
+
+a:hover { /* para enlaces o palabras mientras se pasa el mouse por encima*/
+    background: #f9a03f;
+    color: white;
+}
+a:link { /*para enlaces que no hemos visitado*/
+    text-decoration: none;
+    color: red;
+}
+
+a:visited { /*para enlaces visitados*/
+    color: blueviolet;
+}
+
+a:active {/*es el estado que tendra el enlace cuando estemos dando un click*/
+    text-decoration: underline;
+    color: palevioletred;
+
+}
